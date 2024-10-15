@@ -1375,6 +1375,8 @@ func receiveBlocksFromClient[Client interface {
 			return
 		case blocksChan <- block:
 		}
+
+		// test
 	}
 }
 
